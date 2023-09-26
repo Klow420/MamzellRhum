@@ -1,0 +1,33 @@
+.his {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+
+}
+.his img{
+    width: 65%;
+    margin-bottom: 3%;
+}
+.his p {
+    text-align: center;
+}
+span {
+    font-weight:bold;
+}
+.cadre{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: #7F6963;
+    justify-content: space-around;
+    height: 30%;
+    margin-bottom: 2.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

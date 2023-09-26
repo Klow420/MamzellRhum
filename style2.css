@@ -1,0 +1,51 @@
+footer{
+    background: url(footer3.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-top: solid 1px black;
+    
+}
+
+.container{
+    height: 50%;
+    width: 50%;
+}
+.Information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 15%;
+    font-size: 1.5vw;
+    color: white;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+
+}
+.mention{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+@media screen and (max-width: 768px) {
+
+    .insta{
+        height: 4vh;
+        margin-top: 4%;
+    }
+
+    .logofacebook{
+        width: 45px;
+
+    }
+
+}
+
+

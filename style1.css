@@ -1,0 +1,91 @@
+body{
+    background:url(Pageaccueilmamzel.jpg) fixed no-repeat center center;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+.corps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logoordi{
+    width: 80%;
+    height: 80%;
+    padding-left: 20px;
+}
+.barremenu{
+    display: flex;
+    flex-direction: row;
+    background-color: #7F6963;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    
+}
+.Info{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    width: 100%;
+}
+.Info a{
+    font-size: 2.4vw;
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.Info a:hover{
+    color: black;
+}
+.logomobile{
+    display: none;
+}
+.fondmobile{
+    display:none;
+}
+
+@media screen and (max-width: 768px) {
+        body {
+            background: none;
+            background-color:white;
+            
+        }
+        .logoordi{
+            display:none;
+        }
+        .logomobile{
+            display: block;
+            height: 25vh;
+           
+            
+        }
+        .logo{
+            margin: 0;
+        }
+        .fondmobile{
+            display: block;
+            width: 100%;
+            height: 74vh;
+            object-fit: fill;
+        }
+        .Info a{
+            font-size: 4vw;
+        }
+
+}
